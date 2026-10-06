@@ -140,6 +140,9 @@ cc_test {
 
 cc_fuzz {
     name: "libpng_read_fuzzer",
+    // TODO(b/555106798): Re-enable once the upstream nalloc.h linker issue is resolved.
+    // upstream issue: https://github.com/pnggroup/libpng/issues/932
+    enabled: false,
     host_supported: true,
 
     static_libs: [
