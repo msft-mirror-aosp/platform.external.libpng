@@ -8,6 +8,9 @@ third_party {
   license_type: NOTICE
   security {
     tag: "NVD-CPE2.3:cpe:/a:libpng:libpng:1.6.58"
+    tag: "android:on_device_usage"
+    tag: "android:privilege_level:privileged"
+    tag: "android:untrusted_input"
   }
   last_upgrade_date {
     year: 2026
